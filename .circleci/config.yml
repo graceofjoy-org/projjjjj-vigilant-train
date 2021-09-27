@@ -5,7 +5,7 @@ jobs:
     machine:
       image: ubuntu-2004:202101-01
     resource_class: medium
-    parallelism: 8
+    parallelism: 4
     steps:
       - run: 
           name: Get soure
